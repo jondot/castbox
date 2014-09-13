@@ -1,0 +1,31 @@
+{
+    "device":{
+      "uuid":"config-me-uuid",
+      "name":"config-me-name",
+      "idle_time_min": 3,
+      "remote_chrome":"",
+      "force_host":"10.0.0.11",
+      "force_chromebin":""
+    },
+
+    "applications": [
+        {
+            "allow_empty_post_data": true, 
+            "allow_restart": true, 
+            "app_name": "Homebrew App", 
+            "url": "http://localhost:4000", 
+            "use_channel": true
+        }, 
+        {
+            "allow_empty_post_data": true, 
+            "allow_restart": true, 
+            "app_name": "CA570000-0000-0000-0000-000000000000", 
+            "url": "http://localhost:9000", 
+            "use_channel": true
+        }
+    ], 
+
+    "configuration": {
+        "idle_screen_app": "CA570000-0000-0000-0000-000000000000"
+    }
+}

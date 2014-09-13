@@ -1,0 +1,7 @@
+vendor
+spawn
+node_modules
+chromedriver.log
+build/
+pkg/
+castbox
