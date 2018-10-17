@@ -1,4 +1,4 @@
 gom "github.com/codegangsta/martini"
 gom "github.com/gorilla/websocket"
 gom "github.com/fedesog/webdriver"
-gom "code.google.com/p/go.net/websocket"
+gom "golang.org/x/net/websocket"
